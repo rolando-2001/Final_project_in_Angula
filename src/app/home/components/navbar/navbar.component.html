@@ -1,0 +1,22 @@
+<nav class="navbar">
+    <ul class="nav-info">
+        <li routerLink="" class="nav-item" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+            Home
+        </li>
+        <li routerLink="cart/list" routerLinkActive="active" class="nav-item">
+            Productos
+        </li>
+        <li class="nav-item">
+            <div class="carrito">
+                <img class="carrito-icon" src="img/carrito.png" alt="imagen carrito" />
+                <app-table></app-table>
+            </div>
+        </li>
+        <li routerLink="login" routerLinkActive="active" class="nav-item">
+            Login
+        </li>
+        <li class="nav-item">
+            <a (click)="logout()" class="logout-link">Cerrar sesión</a>
+        </li>
+    </ul>
+</nav>

@@ -1,0 +1,4 @@
+.card-img-top {
+    max-height: 250px; /* Establece una altura máxima */
+    object-fit: cover; /* Asegura que la imagen cubra el espacio sin distorsionarse */
+}
